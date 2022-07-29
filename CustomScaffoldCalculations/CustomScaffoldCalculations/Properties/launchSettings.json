@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Profile 1": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\d.growns\\source\\repos\\SCaFFOLD\\Calcs\\bin\\Debug\\Calcs.exe"
+    }
+  }
+}
