@@ -10,6 +10,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="EssentialCalcs">
+      <HintPath>..\..\Libs\EssentialCalcs.dll</HintPath>
+    </Reference>
     <Reference Include="GenericViewer">
       <HintPath>..\..\Libs\GenericViewer.dll</HintPath>
     </Reference>
@@ -24,9 +27,6 @@
     </Reference>
     <Reference Include="MWGeometry">
       <HintPath>..\..\Libs\MWGeometry.dll</HintPath>
-    </Reference>
-    <Reference Include="Rhino3dmIO">
-      <HintPath>..\..\Libs\Rhino3dmIO.dll</HintPath>
     </Reference>
     <Reference Include="StructuralDrawing2D">
       <HintPath>..\..\Libs\StructuralDrawing2D.dll</HintPath>
