@@ -9,6 +9,33 @@
     <PackageReference Include="CalcCoreStandard" Version="0.0.5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="GenericViewer">
+      <HintPath>..\..\Libs\GenericViewer.dll</HintPath>
+    </Reference>
+    <Reference Include="HelixToolkit">
+      <HintPath>..\..\Libs\HelixToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="InteractionDiagram3D">
+      <HintPath>..\..\Libs\InteractionDiagram3D.dll</HintPath>
+    </Reference>
+    <Reference Include="MIConvexHull">
+      <HintPath>..\..\Libs\MIConvexHull.dll</HintPath>
+    </Reference>
+    <Reference Include="MWGeometry">
+      <HintPath>..\..\Libs\MWGeometry.dll</HintPath>
+    </Reference>
+    <Reference Include="Rhino3dmIO">
+      <HintPath>..\..\Libs\Rhino3dmIO.dll</HintPath>
+    </Reference>
+    <Reference Include="StructuralDrawing2D">
+      <HintPath>..\..\Libs\StructuralDrawing2D.dll</HintPath>
+    </Reference>
+    <Reference Include="Triangle">
+      <HintPath>..\..\Libs\Triangle.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
     <Exec Command="xcopy &quot;$(TargetDir)$(TargetName).dll&quot; &quot;%25appdata%25\Magma works\Scaffold\Libraries\&quot; /y" />
   </Target>
